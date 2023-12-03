@@ -44,7 +44,6 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * BT.etree
  * BTMET
  * BTSOW
- * BullTorrent
  * Byrutor
  * Cinecalidad
  * comicat
@@ -334,11 +333,10 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * Ebooks-Shares
  * Empornium (EMP) [![(invite needed)][inviteneeded]](#)
  * eShareNet
- * eStone (XiDER, BigTorrent)
+ * eStone (BigTorrent)
  * Exitorrent.org [![(invite needed)][inviteneeded]](#)
  * ExoticaZ (YourExotic)
  * ExtremeBits
- * ExtremeTorrents
  * Falkon Vision Team
  * FANO.IN [![(invite needed)][inviteneeded]](#)
  * Fantastiko
@@ -578,8 +576,10 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * TorrentBytes (TBy)
  * TorrentCCF (TCCF)
  * TorrentDay (TD)
+ * TorrentDD
  * Torrenteros (TTR)
- * TorrentHeaven [![(invite needed)][inviteneeded]](#)
+ * TorrentHeaven (German) [![(invite needed)][inviteneeded]](#)
+ * Torrent Heaven (Dutch)
  * TorrentHR [![(invite needed)][inviteneeded]](#)
  * Torrenting (TT)
  * Torrentland
@@ -616,6 +616,7 @@ A third-party Golang SDK for Jackett is available from [webtor-io/go-jackett](ht
  * Wukong
  * x-ite.me (XM)
  * xBytesV2
+ * Xider-Torrent
  * XSpeeds (XS)
  * Xthor
  * XtremeBytes
@@ -907,16 +908,7 @@ To use it, please just request a free API key on [OMDb](http://www.omdbapi.com/a
 ## Building from source
 
 ### Windows
-* Install the .NET 6 [SDK](https://www.microsoft.com/net/download/windows)
-* Clone Jackett
-* Open PowerShell and from the `src` directory:
-* - run `dotnet msbuild /restore`
-* - then run `dotnet restore`
-* - and run `dotnet build`
-* Open the Jackett solution in Visual Studio 2019 (version 16.9 or above)
-* Select **Jackett.Server** as the startup project
-* In the drop-down menu of the run button select **Jackett.Server** instead of _IIS Express_
-* Build/Start the project
+[See our contributing guide.](https://github.com/Jackett/Jackett/blob/master/CONTRIBUTING.md#contributing-code)
 
 ### OSX
 
